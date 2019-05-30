@@ -1,73 +1,130 @@
-<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
+        <body>
+        <header class='flex column'>
+        <section id='profile-img'>
+            <img src='profile-image.png' >
+        </section>
+        <section id='contact'>
+        <h1>Juan Avilez Sandoval</h1>
+        <h2>Full Stack Web Developer<br>
+            <span id='subh2'><i class="fas fa-map-marker-alt"></i> Las Vegas, NV | <i class="fas fa-phone"></i> (424) 347-9369 </span>
+        </h2>
+        </div>
+        </header>
 
-<h1>Juan Avilez Sandoval</h1>
-<h2>
-    Full Stack Web Developer<br>
-    <span id='subh2'><i class="fas fa-map-marker-alt"></i> Las Vegas, NV | <i class="fas fa-phone"></i> (424) 347-9369</span>
-</h2>
+        <section class='accordion-section' >
+            <h1><i class="fas fa-user"></i> About Me</h1>
+            <div class='section-content'>
+                <p>Don't think a person can truly be good in all aspects of development? Try me!  I can design it, code it, program it, deploy it, debug it, maintain it, you name it.  I can work seamlessly between the front end and the back end with database and graphic design skills to top it off. <br>
+                <br>
+                Dedicated individual with 6 years experience in full stack development of responsive websites and complex web applications mainly using HTML, CSS, Javascript, PHP, and MySQL with a solid understanding of responsive design and UI/UX principles. A passion for developing simple and clean solutions. Fascinated by code and always seeking to learn more. </p>
+            </div>
+        </section>
 
-<section>
-    <h1><i class="fas fa-user"></i> About Me</h1>
-    <div class='section-content'>This is what is going on.</div>
-</section>
+        <section class='accordion-section' >
+            <h1><i class="fas fa-mobile-alt"></i> Front End Skills</h1>
+            <div class='section-content'>My Work Experience</div>
+        </section>
 
-<section>
-    <h1><i class="fas fa-mobile-alt"></i> Front End Skills</h1>
-    <div class='section-content'>My Work Experience</div>
-</section>
+        <section class='accordion-section' >
+            <h1><i class="far fa-eye"></i> Design Skills</h1>
+            <div class='section-content'>My Work Experience</div>
+        </section>
 
-<section>
-    <h1><i class="far fa-eye"></i> Design Skills</h1>
-    <div class='section-content'>My Work Experience</div>
-</section>
+        <section class='accordion-section' >
+            <h1><i class='fas'>{}</i> Back End Skills</h1>
+            <div class='section-content'>My Work Experience</div>
+        </section>
 
-<section>
-    <h1><i class='fas'>{}</i> Back End Skills</h1>
-    <div class='section-content'>My Work Experience</div>
-</section>
-
-<section>
-    <h1><i class="fas fa-database"></i> Database Skills</h1>
-    <div class='section-content'>My Work Experience</div>
-</section>
+        <section class='accordion-section' >
+            <h1><i class="fas fa-database"></i> Database Skills</h1>
+            <div class='section-content'>My Work Experience</div>
+        </section>
 
 
 
-<footer>
+        <footer>
 
-<a href=''><i class="fab fa-github"></i></a>
-<a href=''><i class="fab fa-linkedin-in"></i></a>
-<a href=''><i class="fas fa-file-alt"></i></a>
+            <a href=''><i class="fab fa-github"></i></a>
+            <a href=''><i class="fab fa-linkedin-in"></i></a>
+            <a href=''><i class="fas fa-file-alt"></i></a>
 
-</footer>
+        </footer>
+
+    </body>
+</html>
 
 
 <style>
 
-    footer {
+
+header {
+
+margin-bottom: 20px;
+
+}
+
+#profile-img {
+
+flex:none;
+margin-right:20px;
+
+}
+
+
+#profile-img img {
+
+width:115px;
+
+}
+
+.flex {
+display:flex;
+}
+
+.flex * {
+
+flex-grow:1; 
+flex-basis:1px;
+}
+.row {
+flex-direction:row;
+}
+
+
+footer {
 font-size:30px;
 
 
-    }
+}
 
-    footer a {
+footer a {
 
-        color:#293438;
-        
+color:#293438;
 
-    }
+
+}
 
 body {
 
 font-family: 'Raleway', sans-serif;
 background-image: linear-gradient(#ffffff, #afafaf);
 color:#293438;
+width:100%;
+max-width:600px;
+margin: 0 auto;
+padding: 30px;
+box-sizing:border-box;
 }
 
-section h1 .far, section h1 .fas {
+.accordion-section  h1 .far, .accordion-section h1 .fas {
 display: inline-block;
-    width: 35px;
+width: 35px;
 font-weight:600;
 text-align:center;
 }
@@ -80,10 +137,10 @@ margin-bottom:5px;
 
 h2 {
 
-    font-weight: 300;
-    font-size: 18px;
-    margin: 0px;
-    line-height: 28px;
+font-weight: 300;
+font-size: 18px;
+margin: 0px;
+line-height: 28px;
 
 }
 
@@ -93,20 +150,20 @@ font-size:14px;
 
 }
 
-section {
+.accordion-section {
 
 width:100%;
 }
 
-section h1 {
+.accordion-section h1 {
 
-    background-image: linear-gradient(#7cd9ff, #008abf);
-    border-radius: 10px;
-    margin: 10px 0px;
-    padding: 10px;
-    cursor: pointer;
-    color:white;
-    font-weight:200;
+background-image: linear-gradient(#7cd9ff, #008abf);
+border-radius: 10px;
+margin: 10px 0px;
+padding: 10px;
+cursor: pointer;
+color:white;
+font-weight:200;
 }
 
 
@@ -114,14 +171,12 @@ section h1 {
 
 display:none;
 background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 25px #888484;
-    margin-bottom:30px;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0px 0px 25px #888484;
+margin-bottom:30px;
 
 }
-
-
 
 </style>
 
@@ -129,13 +184,11 @@ background-color: white;
 
 <script>
 
+    $('h1').click(function() { 
 
-$('h1').click(function() { 
+        $(this).siblings('.section-content').toggle('fast');
+        $(this).parent('section').siblings().find('.section-content').hide('fast');
 
-$(this).siblings('.section-content').toggle('slow');
-$(this).parent('section').siblings().find('.section-content').hide('slow');
-
-});
-
+    });
 
 </script>
